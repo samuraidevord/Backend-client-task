@@ -1,6 +1,7 @@
 //Conexión a postgresql
 import pkg from 'pg';
 import { db } from './config.js';
+
 const { Pool } = pkg;
 const pool = new Pool({
     host: db.host,

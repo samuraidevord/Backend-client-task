@@ -1,8 +1,7 @@
 import {config} from "dotenv"
 config();
 
-const PORT = process.env.PORT || 50000;
-
+const PORT = process.env.PORT || 5000;
 const db = {
     host : process.env.HOST, 
     user: process.env.DB_USER,
